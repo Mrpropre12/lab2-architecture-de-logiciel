@@ -84,7 +84,7 @@ def changer_statut_ticket(tickets):
 
 # Actions du menu Admin
 
-#function permmetant a un admin d'assiger un nticker a un utilisateur 
+#function permmetant a un admin d'assiger un ticker a un utilisateur 
 def assigner_ticket(tickets, users, admin):
     print("\n--- Assignation d'un ticket ---")
     if not tickets:
