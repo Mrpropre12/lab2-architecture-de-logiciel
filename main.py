@@ -200,12 +200,14 @@ def afficher_menu_authentification():
 def main():
     # Création des utilisateurs et administrateurs de départ
     user1 = User(user_id=1, name="Alice Tremblay",
-                 email="alice.tremblay@uqac.ca", role="Développeur")
+                 email="alice.tremblay@uqac.ca", role="Utilisateur")
     user2 = User(user_id=2, name="Marc Bouchard",
-                 email="marc.bouchard@uqac.ca", role="Développeur")
+                 email="marc.bouchard@uqac.ca", role="Utilisateur")
 
     users = [user1, user2]
     tickets = []
+
+    #Creation de l'admin
     admin1 = Admin(admin_id=1, name="Bob Gagnon", email="bob.gagnon@uqac.ca",
                     tickets=tickets)
     admins = [admin1]
